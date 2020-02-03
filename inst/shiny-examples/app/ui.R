@@ -155,6 +155,11 @@ ui <- navbarPage("iNZight Text Analytics",
                                            uiOutput("insight_options")
                                          ),
                                          
+                                          
+                                         conditionalPanel(
+                                           condition = "input.what_vis == 'Aggregated Sentiment'", 
+                                           checkboxInput("scale_senti", "Scale Aggregated Sentiment Scores")
+                                         ),
                                          
                                          conditionalPanel(
                                            condition = "!(input.what_vis == 'Word Tree'||input.what_vis == 'Readability')",
