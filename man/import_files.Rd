@@ -4,7 +4,7 @@
 \alias{import_files}
 \title{Import any number of files}
 \usage{
-import_files(filepaths)
+import_files(filepaths, filenames)
 }
 \arguments{
 \item{filepaths}{char vector of filepaths}

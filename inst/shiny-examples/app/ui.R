@@ -1,3 +1,48 @@
+# Use packman package to check whether required packages are installed.
+# Install missing packages, and load all packages afterwards
+
+#if(!require(pacman)) install.packages("pacman")
+devtools::install_github('charlie86/spotifyr')
+
+# pacman::p_load(
+#   spotifyr,
+#   shiny, 
+#   inzightta,
+#   rlang,
+#   gutenbergr,
+#   pdftools,
+#   stringr,
+#   stringi,
+#   dplyr,
+#   tidytext,
+#   tidyr,
+#   genius,
+#   tidyRSS, 
+#   rtweet, 
+#   shinyjs, 
+#   shinybusy,
+#   shinyWidgets, 
+#   GuardianR, 
+#   quanteda, 
+#   jsonlite, 
+#   ggplot2, 
+#   data.table, 
+#   DT, 
+#   textclean, 
+#   googleVis, 
+#   shinyBS, 
+#   purrr, 
+#   ggstance, 
+#   ggthemes, 
+#   forcats, 
+#   rvest, 
+#   dplyr, 
+#   httr, 
+#   lubridate, 
+#   readr,
+#   tibble)
+
+
 text_sources = c("Upload .txt, .csv, .xlsx, or .xls file", "Project Gutenberg", "Twitter",
                  "Spotify/Genius", "The Guardian Articles", "stuff.co.nz Comments", "Reddit")
 

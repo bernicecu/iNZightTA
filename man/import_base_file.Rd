@@ -4,7 +4,7 @@
 \alias{import_base_file}
 \title{Base case for file import}
 \usage{
-import_base_file(filepath)
+import_base_file(filepath, filename)
 }
 \arguments{
 \item{filepath}{string filepath of file for import}

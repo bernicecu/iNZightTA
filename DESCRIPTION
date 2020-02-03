@@ -34,12 +34,12 @@ Imports:
     ggwordcloud,
     textdata, 
     spotifyr,
-    rlang, 
+    rlang,
     gutenbergr, 
     pdftools,
-    stringi, 
-    tidyr, 
-    genius, 
+    stringi,
+    tidyr,
+    genius,
     tidyRSS, 
     rtweet, 
     shinyjs, 
@@ -49,17 +49,16 @@ Imports:
     quanteda, 
     jsonlite, 
     data.table, 
-    DT, 
+    DT,
     textclean, 
     googleVis, 
-    shinyBS, 
+    shinyBS,
     ggstance, 
     ggthemes,
     rvest, 
     httr, 
     lubridate
-
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 NeedsCompilation: no
 Packaged: 2019-09-08 10:33:01 UTC; user
 Author: Jason Cairns [aut, cre]

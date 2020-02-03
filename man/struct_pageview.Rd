@@ -4,7 +4,7 @@
 \alias{struct_pageview}
 \title{Colours a ggpage based on an insight function}
 \usage{
-struct_pageview(.data, col_name, num_terms, term_index, palette)
+struct_pageview(.data, col_name, num_terms, term_index, word_size, palette)
 }
 \arguments{
 \item{.data}{a dataframe containing "word" and insight columns as
