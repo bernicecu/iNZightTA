@@ -274,7 +274,8 @@ insighted_agg <- reactive({
     "Aggregated Sentiment" = get_aggregate_insight(grouped(),
                                                    c("Bound Aggregates", input$what_vis),
                                                    input$agg_var,
-                                                   input$sent_lex), to_scale = input$scale_senti)
+                                                   input$sent_lex, 
+                                                   to_scale = input$scale_senti))
   })
 
 
